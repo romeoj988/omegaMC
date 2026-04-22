@@ -16,7 +16,7 @@ class RegisterActivity : AppCompatActivity() {
         val registerButton = findViewById<Button>(R.id.btnRegister)
         val backButton = findViewById<Button>(R.id.btnBack)
 
-        // tombol daftar
+        
         registerButton.setOnClickListener {
 
             val email = emailInput.text.toString().trim()
@@ -27,7 +27,7 @@ class RegisterActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            // simpan data sederhana
+            
             DataUser.savedEmail = email
             DataUser.savedPassword = password
 
@@ -37,7 +37,7 @@ class RegisterActivity : AppCompatActivity() {
             finish()
         }
 
-        // tombol kembali
+        
         backButton.setOnClickListener {
             finish()
         }
