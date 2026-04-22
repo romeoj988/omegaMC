@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal">
+
+    <!-- Judul -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buat Akun"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="#388E3C"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="28dp" />
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/etRegEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Email"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- Password -->
+    <EditText
+        android:id="@+id/etRegPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginBottom="18dp"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- Tombol Daftar -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#43A047" />
+
+    <!-- Tombol Kembali -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

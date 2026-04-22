@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- warna utama -->
+    <color name="primary">#43A047</color>
+    <color name="primary_dark">#2E7D32</color>
+    <color name="accent">#66BB6A</color>
+
+    <!-- warna netral -->
+    <color name="black">#212121</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="background">#F5F5F5</color>
+
+    <!-- khusus bottom nav -->
+    <color name="nav_active">#43A047</color>
+    <color name="nav_inactive">#9E9E9E</color>
+
+</resources>
