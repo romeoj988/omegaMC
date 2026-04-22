@@ -35,7 +35,7 @@ class ConvertFragment : Fragment() {
         convertButton.setOnClickListener {
 
             val usdValue = inputUsd.text.toString().toDoubleOrNull()
-
+            
             if (usdValue == null) {
                 resultText.text = "Masukkan angka yang valid"
                 return@setOnClickListener
