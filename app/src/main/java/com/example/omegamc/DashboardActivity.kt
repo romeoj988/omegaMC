@@ -13,7 +13,7 @@ class DashboardActivity : AppCompatActivity() {
 
         val bottomNav = findViewById<BottomNavigationView>(R.id.bottomNavigation)
 
-        // fragment awal
+        
         loadFragment(HomeFragment())
 
         bottomNav.setOnItemSelectedListener {
@@ -30,7 +30,7 @@ class DashboardActivity : AppCompatActivity() {
         }
     }
 
-    // fungsi biar gak nulis berulang
+    
     private fun loadFragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction()
             .replace(R.id.frameLayout, fragment)
