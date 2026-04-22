@@ -13,7 +13,7 @@ class ConvertActivity : AppCompatActivity() {
         val etAmount = findViewById<EditText>(R.id.etAmount)
         val btnConvert = findViewById<Button>(R.id.btnConvert)
         val tvResult = findViewById<TextView>(R.id.tvResult)
-
+        
         btnConvert.setOnClickListener {
             val amount = etAmount.text.toString().toDoubleOrNull()
 
