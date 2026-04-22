@@ -19,19 +19,19 @@ class HomeFragment : Fragment() {
         root.gravity = Gravity.CENTER_HORIZONTAL
         root.setPadding(40, 160, 40, 40)
 
-        // judul
+       
         val title = TextView(requireContext())
         title.text = "Dashboard"
         title.textSize = 21f
         title.setPadding(0, 0, 0, 20)
 
-        // nama user
+       
         val userText = TextView(requireContext())
         userText.text = "👤 ${DataUser.username}"
         userText.textSize = 17f
         userText.setPadding(0, 0, 0, 20)
 
-        // saldo
+        
         val saldoBox = TextView(requireContext())
         saldoBox.text = "Saldo USD: ${DataUser.saldoUSD}"
         saldoBox.textSize = 19f
